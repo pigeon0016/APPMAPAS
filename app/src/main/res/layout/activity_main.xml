@@ -16,49 +16,49 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/ivRestaurante1"
+        android:id="@+id/iv1"
         android:layout_width="70dp"
         android:layout_height="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ivRestaurante2"
+        app:layout_constraintEnd_toStartOf="@+id/iv2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/map"
         app:srcCompat="@drawable/fishers" />
 
     <ImageView
-        android:id="@+id/ivRestaurante2"
+        android:id="@+id/iv2"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ivRestaurante3"
+        app:layout_constraintEnd_toStartOf="@+id/iv3"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ivRestaurante1"
+        app:layout_constraintStart_toEndOf="@+id/iv1"
         app:layout_constraintTop_toBottomOf="@+id/map"
         app:srcCompat="@drawable/pampas" />
 
     <ImageView
-        android:id="@+id/ivRestaurante3"
+        android:id="@+id/iv3"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ivRestaurante4"
+        app:layout_constraintEnd_toStartOf="@+id/iv4"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ivRestaurante2"
+        app:layout_constraintStart_toEndOf="@+id/iv2"
         app:layout_constraintTop_toBottomOf="@+id/map"
         app:srcCompat="@drawable/panamas" />
 
     <ImageView
-        android:id="@+id/ivRestaurante4"
+        android:id="@+id/iv4"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ivRestaurante3"
+        app:layout_constraintStart_toEndOf="@+id/iv3"
         app:layout_constraintTop_toBottomOf="@+id/map"
         app:srcCompat="@drawable/santino" />
 
