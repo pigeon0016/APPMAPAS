@@ -57,22 +57,22 @@ class MainActivity : AppCompatActivity() , OnMapReadyCallback, GoogleMap.OnMyLoc
         enableLocation()
         findViewById<ImageView>(R.id.iv1).setOnClickListener{
            // Toast.makeText(this,"Fishers", Toast.LENGTH_SHORT).show()
-            crearMrker(19.485922146231005, -99.24314752694443,"Italiannis")
+            crearMrker(19.485922146231005, -99.24314752694443,"Fishers")
         }
 
         findViewById<ImageView>(R.id.iv2).setOnClickListener{
             //Toast.makeText(this,"Pampas", Toast.LENGTH_SHORT).show()
-            crearMrker(19.373059125228643, -99.17942579871797,"Cardenal")
+            crearMrker(19.373059125228643, -99.17942579871797,"Pampas")
         }
 
         findViewById<ImageView>(R.id.iv3).setOnClickListener{
             //Toast.makeText(this,"Panama", Toast.LENGTH_SHORT).show()
-            crearMrker(24.762019756180823, -107.45471285749157,"El jacal de San Antonio")
+            crearMrker(24.762019756180823, -107.45471285749157,"Panama")
         }
 
         findViewById<ImageView>(R.id.iv4).setOnClickListener{
             // Toast.makeText(this,"Santino", Toast.LENGTH_SHORT).show()
-            crearMrker(19.415996104402236, -99.16974259954642,"RosaNegra")
+            crearMrker(19.415996104402236, -99.16974259954642,"Santino")
         }
     }
 
